@@ -7,7 +7,7 @@ https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow
 1. En Hive, crear la siguiente tabla (externa) en la base de datos tripdata:
 a. airport_trips(tpep_pickup_datetetime, airport_fee, payment_type, tolls_amount,
 total_amount)
-![por consolad hadoop](https://github.com/ksirena35/Clase7_Airflow/blob/main/resources/1y2Hive.png)
+![por consola hadoop](/resources/1y2Hive.png)
 
 3. En Hive, mostrar el esquema de airport_trips
 4. Crear un archivo .bash que permita descargar los archivos mencionados abajo e
