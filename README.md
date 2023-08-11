@@ -16,11 +16,11 @@ Yellow_tripdata_2021-01.parquet
 Yellow_tripdata_2021-02.parquet
 (https://data-engineer-edvai.s3.amazonaws.com/yellow_tripdata_2021-02.parquet)
 ![creando el archivo .bash](/resources/3bash-ingestado.png)
-5. Crear un archivo .py que permita, mediante Spark, crear un data frame uniendo los
+4. Crear un archivo .py que permita, mediante Spark, crear un data frame uniendo los
 viajes del mes 01 y mes 02 del año 2021 y luego Insertar en la tabla airport_trips los
 viajes que tuvieron como inicio o destino aeropuertos, que hayan pagado con dinero.
 ![transformando en spark](resources/4filtros.png)
-7. Realizar un proceso automático en Airflow que orqueste los archivos creados en los
+5. Realizar un proceso automático en Airflow que orqueste los archivos creados en los
 puntos 3 y 4. Correrlo y mostrar una captura de pantalla (del DAG y del resultado en la
 base de datos)
 ![Orquestacion en Airflow](resources/5AirflowDAG.png)
